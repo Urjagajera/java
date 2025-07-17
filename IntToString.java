@@ -1,6 +1,7 @@
 import java.util.*;
-import java.security.*;
-public class Solution {
+
+public class IntToString {
+   
 public static void main(String[] args) {
 
 
@@ -14,9 +15,7 @@ String s = String.valueOf(n);
    
    if (n == Integer.parseInt(s)) {
     System.out.println("Good job");
-   } else {
-    System.out.println("Wrong answer.");
-   }
+   } 
  
  }
 }
